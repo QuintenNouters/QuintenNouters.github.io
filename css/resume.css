@@ -43,10 +43,11 @@ h2 {
   color: #495057;
 }
 
+/*the color of the social media icons when hovering over it*/
 .list-social-icons a:hover {
-  color: #0096bc;
+  color: #216ccd;
 }
-
+<!-- -->
 .list-social-icons a .fa-lg {
   font-size: 1.75rem;
 }
@@ -56,7 +57,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #0096bc; /*#BD5D38;*/
+  color: #216ccd; /*#BD5D38;*/
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -131,17 +132,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #0096bc !important;
+  background-color: #216ccd !important;
 }
 
 .text-primary {
-  color: #0096bc !important;
+  color: #216ccd !important;
 }
 
 a {
-  color: #0096bc;
+  color: #216ccd;
 }
 
 a:hover, a:focus, a:active {
-  color: #0096bc;
+  color: #216ccd;
 }
