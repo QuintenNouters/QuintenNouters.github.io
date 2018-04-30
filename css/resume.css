@@ -146,3 +146,16 @@ a {
 a:hover, a:focus, a:active {
   color: #216ccd;
 }
+
+.btn-primary{
+  background-color: #216ccd;
+
+}
+
+.btn-text{
+  color: #ffffff;
+
+}
+a.btn-text:hover, a.btn-text:focus, a.btn-text:active{
+  color: #dee2e6;
+}
