@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Used a bootstrap template to start with">
+    <meta name="author" content="Quinten Nouters">
 
     <title>Quinten Nouters | E-Portfolio</title>
 
@@ -213,27 +213,48 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="cv">
         <div class="my-auto">
           <h2 class="mb-5">Curriculum Vitae</h2>
-          <p>Je kan met de onderstaande knop mijn cv downloaden</p>
+          <p>Kies of je mijn CV wil downloaden door op de 'Download CV'-knop te klikken of bekijk het in een ander tablad door op de 'Bekijk CV'-knop te klikken</p>
           <button type="button" class="btn btn-primary btn-lg"><a class="btn-text" href="/files/CV_QuintenNouters.docx">Download CV</a></button>
+          <button type="button" class="btn btn-primary btn-lg"><a class="btn-text" target="_blank" href="/files/CV_QuintenNouters.pdf">Bekijk CV</a></button>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interesses">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid
-            skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free
-            climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television
-            shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy
-            advancements in the front-end web development world.</p>
+          <h2 class="mb-5">Interesses</h2>
+          <p>Naast het ontwikkelen van applicaties doe ik nog enkele andere activiteiten zoals tennis spelen bij mijn
+            locale tennisclub en één maal per jaar probeer ik zeker eens te gaan skiën. Skiën is voor mij de beste sport
+          om te kunnen ontspannen.</p>
+          <p class="mb-0">Andere interesses zijn muziek luisteren en dan vooral het edm genre (electronic dance music).
+          Ik volg ook de laatste nieuwigheden van de automobiel industrie op de voet. Ik kijk dan vooral naar auto's met
+            veel vermogen omdat deze in het algemeen interessanter zijn met hoe ze deze auto's zo veel vermogen geven,
+            dit is ook de reden waarom ik elke grand prix van de Formule1 ook kijk. Naast auto's met veel vermogen kijk
+            ik uit naar de toekomst van de eletrische wagens en de technologiën die daar bij horen. s'Avonds kijk ik
+            ofwel een serie of ik speel een shooter game of een race game.</p>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
         <div class="my-auto">
           <h2 class="mb-5">Contactgegevens</h2>
+          <div class="container">
+            <form action="/mail/contact_me.php">
+              <div class="form-group">
+                <label for="fname">Voornaam</label>
+                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Uw voornaam..">
+              </div>
+              <div class="form-group">
+                <label for="lname">Familienaam</label>
+                <input class="form-control" type="text" id="lname" name="lastname" placeholder="Uw familienaam..">
+              </div>
+              <div class="form-group">
+                <label for="subject"></label>
+                <textarea class="form-control" id="subject" name="subject" placeholder="Schrijf hier uw bericht..." style="height:200px"></textarea>
+              </div>
+              <input class="btn btn-primary" type="submit" value="Submit">
 
+            </form>
+          </div>
         </div>
       </section>
 
