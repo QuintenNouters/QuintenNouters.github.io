@@ -159,3 +159,7 @@ a:hover, a:focus, a:active {
 a.btn-text:hover, a.btn-text:focus, a.btn-text:active{
   color: #dee2e6;
 }
+
+table.table, th, td{
+  border: 0;
+}
